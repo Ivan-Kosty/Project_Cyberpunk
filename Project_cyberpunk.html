@@ -26,32 +26,34 @@
             justify-content: center;
         }
         .hexagon_text{ 
-        
+        position: absolute;
         width: 484px;
         height: 126px;
         top: 701px;
         left: 1046px;
         
         font-family: 'Tektur';
-        font-weight: 550;
+        font-weight: 525;
         font-size: 62px;
         line-height: 100%;
         letter-spacing: 0%;
+
         display: flex;
         align-items: center;
         justify-content: center;
         }
 
         .hexagon-button {
-        
+        position: absolute;
         width: 272px;
         height: 78px;
-        top: 852px;
+        top: 875px;
         left: 1046px;
         padding: 19px 50px 19px 50px;
         gap: 10 px;
         background-color: black;
         color: #F8F200;
+        white-space: nowrap;
 
         font-family: Roboto;
         font-weight: 700;
@@ -62,25 +64,78 @@
         display: flex;
         align-items: center;
         justify-content: center;
-}
-    
+        }
+        .game-info-text{
+            position: absolute;
+            width: 952px;
+            height: 125px;
+            top: 1158px;
+            left:320px;
+
+            font-family: Roboto;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 34px;
+            letter-spacing: 0%;
+            color: black;
+        }
+        .hexagon-image-s{
+            position: absolute;
+            width: 460px;
+            height: 196px;
+            left: 320px;
+            clip-path: polygon(0 10%,5% 0,100% 0,100% 90%,95% 100%,0 100%);
+        }
+        .hexagon-image-l{
+            position: absolute;
+            width: 788px;
+            height: 424px;
+            left: 812px;
+            top: 1353px;
+            clip-path: polygon(0 10%,5% 0,100% 0,100% 90%,95% 100%,0 100%);
+        }
     
         </style>
 </head>
 <body>
-    <img src="E:\images_project/11.jpg" alt="game banner">
-    <img src="E:\images_project/Cyberpunk_2077_logo 1.png" alt="game logo"style="
+    <img src="D:\images_project/11.jpg" alt="game banner">
+    <img src="D:\images_project/Cyberpunk_2077_logo 1.png" alt="game logo"style="
     position: absolute;
     width: 296px;
     height: 74px;
     top: 20px;
     left: 320px;
     ">
-    <div class="clip_hexagon">
+    <img src=D:\images_project/Group107.png style="
+    position: absolute;
+    width: 379px;
+    height: 30 px;
+    top: 42px;
+    left: 1221px;">
+    <img>
+    <img src="D:\images_project/Rectangle60.jpg" style="
+    top: 1000px;
+    ">
+
+    <div class="clip_hexagon"></div>
     <div class="hexagon_text">Доступно на всех платформах</div>
-    <button class="hexagon-button">
-        Узнать больше
-    </button>
-    </div>
+    <button class="hexagon-button">Узнать больше</button>
+    <div class="hexagon_text" style=
+    "top: 1070px;
+    width: 996px;
+    height: 63px;
+    left: 320px;
+    white-space: nowrap;
+    ">Найт-Сити изменит тебя навсегда!</div>
+    <div class="game-info-text">Cyberpunk 2077 — приключенческая ролевая игра, действие которой 
+    происходит в мегаполисе Найт-Сити,где власть, роскошь и модификации тела ценятся выше всего.
+    Ты играешь за V, наёмника в поисках устройства, позволяющего обрести бессмертие.
+    Ты сможешь менять киберимпланты, навыки и стиль игры своего персонажа, исследуя открытый мир,
+    где твои поступки влияют на ход сюжета и всё, что тебя окружает.</div>
+    <img src="D:\images_project/redd.png" class="hexagon-image-s" style="top: 1353px;">
+    <img src="D:\images_project/pinkk.png" class="hexagon-image-s" style="top: 1581px;">
+    <img src="D:\images_project/full_city.png" class="hexagon-image-l">
+    <img src="D:\images_project/22_1.png" style="top: 1847px;">
+    <img src="D:\images_project/Rectangle60_1.jpg" style="top: 1917px;">
 </body>
 </html>
